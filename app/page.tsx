@@ -1,26 +1,35 @@
 import { AppSidebar } from "@/components/(sidebar)/app-sidebar"
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
-import { Separator } from "@/components/ui/separator"
+
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
 } from "@/components/ui/sidebar"
 
-import { Header } from "@/components/(header)/header"
+import { Header } from "@/components/(header)/app-header"
+
+import { Footer } from "@/components/(footer)/app-footer"
+
+
+
 export default function Page() {
   return (
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <Header />
+        <main>
+          <Header />
+          
+          <Footer />
+
+        
+
+        {/* main content */}
+
+        {/* <footer></footer> */}
+
+
+        </main>
+      
 
 
           
