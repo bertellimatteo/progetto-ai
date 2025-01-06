@@ -6,4 +6,5 @@ export function Footer() {
       {/* add the footer like the license informazioni di footer contatti, copyright, link rapidi */}
     </footer>
   );
+  
 }
