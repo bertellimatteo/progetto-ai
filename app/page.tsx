@@ -16,19 +16,16 @@ export default function Page() {
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <main>
+
+       
+        <div className="flex flex-col m-2 ml-0 h-full justify-between gap-2">
           <Header />
-          
+
+          <main className="bg-red-50 flex-1"> </main>
+      
           <Footer />
 
-        
-
-        {/* main content */}
-
-        {/* <footer></footer> */}
-
-
-        </main>
+        </div>
     
         {/* <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
           <div className="grid auto-rows-min gap-4 md:grid-cols-3">
