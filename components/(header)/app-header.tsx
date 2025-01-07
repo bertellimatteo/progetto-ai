@@ -26,7 +26,9 @@ import {
  SettingsDropdown,
 } from "@/components/(header)/SettingsDropdown"
 
-import { SearchBar } from "@/components/ui/search-bar"
+import {
+ CommandMenu,
+} from "@/components/(header)/CommandMenu"
 
 
 export function Header() {
@@ -64,7 +66,9 @@ export function Header() {
 
           <div className="flex items-center gap-2 px-4">
 
-            <SearchBar />
+            <CommandMenu />
+
+
 
             <SettingsDropdown />
 
