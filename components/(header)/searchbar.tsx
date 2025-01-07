@@ -16,9 +16,6 @@ import {
  import { Button } from "@/components/ui/button"
 
 
-// Puoi usare un bottone di shadcn/ui oppure uno nativo HTML.
-// Esempio: import { Button } from "@/components/ui/button"
-
 export function CommandMenu() {
   const [open, setOpen] = React.useState(false)
 
