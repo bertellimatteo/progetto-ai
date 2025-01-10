@@ -20,13 +20,13 @@ import {
 export function SettingsDropdown() {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger>
+      <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon" className="h-7 w-7 p-0 border-0 shadow-transparent bg-transparent">
             <Settings className="h-4 w-4" />
             <span className="sr-only">Open settings</span>
           </Button>
-
       </DropdownMenuTrigger>
+
       <DropdownMenuContent>
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
